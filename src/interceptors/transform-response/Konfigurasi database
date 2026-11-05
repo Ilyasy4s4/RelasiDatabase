@@ -1,9 +1,0 @@
-1. Konfigurasi Database [ok]
-2. Install Postgre via Docker [ok]
-3. Sync Entity ke Tabel 
-4. CRUD
-
-library 
-joi
-
-npm install @nestjs/config joi
