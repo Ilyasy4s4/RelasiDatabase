@@ -21,7 +21,7 @@ export class TransformResponseInterceptor<T> implements NestInterceptor<T, Stand
     return next.handle().pipe(
      map((originalData) => ({
       success: true,
-      message: "Data berhasil diambil",
+      message: "Berhasil",
       statusCode: currentStatusCode,
       data: originalData ?? null
      }))
